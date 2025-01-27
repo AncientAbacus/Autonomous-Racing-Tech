@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>carla_interface</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="redspry@gmail.com">C.K. Wolfe</maintainer>
+  <license>TODO: License declaration</license>
+  <author email="redspry@gmail.com">C.K. Wolfe</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>gps_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>race_msgs</depend>
+  <depend>target_trajectory_line</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>base_common</depend>
+  <depend>autonomy_bringup</depend>
+  <depend>carla_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

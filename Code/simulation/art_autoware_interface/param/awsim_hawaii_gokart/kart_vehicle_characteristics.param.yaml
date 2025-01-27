@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    cg_to_front_m: 0.5775
+    cg_to_rear_m: 0.4725
+    front_corner_stiffness: 17000.0 # Not used, not changed
+    rear_corner_stiffness: 20000.0 # Not used, not changed
+    mass_kg: 226.796
+    yaw_inertia_kgm2: 2170.0 # Not used, not changed
+    width_m: 1.0
+    front_overhang_m: 0.3
+    rear_overhang_m: 0.3
+    max_steer_angle: 0.349066 # [rad]

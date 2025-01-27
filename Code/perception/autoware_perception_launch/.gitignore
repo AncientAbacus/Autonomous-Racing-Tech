@@ -1,0 +1,2 @@
+config/model/*.onnx
+config/model/*.engine

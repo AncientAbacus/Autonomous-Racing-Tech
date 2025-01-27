@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    publish_vks: true
+    publish_vks_interval_s: 0.01

@@ -1,0 +1,18 @@
+/**:
+  ros__parameters:
+    geometric_filter_max_x: 10.0 # Max x value to filter out.
+    geometric_filter_min_x: -5.0 # Min x value to filter out.
+    geometric_filter_max_y: 500.0 # 0.0 # Max y value to filter out.
+    geometric_filter_min_y: -500.0 # Min y value to filter out.
+    geometric_filter_max_z: 1.3 # Max z value to filter out.
+    geometric_filter_min_z: -0.25 # Min z value to filter out.
+    inliers_distance_threshold: 0.2 # euclidean distance threshold for ransac model to consider a point part of an inlier.
+    wall_height_threshold: 50.0 # Maximum height of estimated guassian distribution in the z-axis allowed for the inliers. 
+    wall_width_threshold: 500.0 # Maximum width of estimated guassian distribution in the x-axis allowed for the inliers. 
+    voxel_leaf_size: 0.05 # Voxel leaf size for downsampling point cloud.
+    epsilon_angle_deg: 30.0 # epsilon of planar estimation from eigen vector.
+    enable_visualization: true # Rviz visualization flag
+    cluster_tolerance: 0.5 # meters
+    max_cluster_size: 99999999.0
+    min_cluster_size: 0.0
+    fence_to_wall_distance: 0.1

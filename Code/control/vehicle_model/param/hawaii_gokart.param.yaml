@@ -1,0 +1,98 @@
+/**:
+  ros__parameters:
+    front_tyre:
+      radius: 0.127
+      width: 0.127
+      mass: 2.0
+      rot: 2.0
+      rolling_resistance_coeff: 0.012
+      lookup_per_tyre: # remember this is per tyre
+        normal_load: [484.3, 645.8, 807.2, 968.7, 1130.1, 1291.6]
+        max_lon_slip: [6.0, 6.0, 6.5, 6.5, 6.5, 6.5]
+        max_lat_deg: [3.5, 4.0, 4.0, 4.0, 4.0, 4.0]
+        max_lon_force: [610.91378754, 816.91959961, 1033.2579916, 1239.90958993, 1446.56118825, 1649.98385534]
+        max_lat_force: [634.48498547, 858.89570552, 1107.52340975, 1310.94607685, 1504.68195027, 1695.18889248]
+      pacejka_b: 9.62
+      pacejka_c: 2.59
+      pacejka_e: 1.0
+      pacejka_fz0: 550.0
+      pacejka_eps: -0.0813
+
+    rear_tyre:
+      radius: 0.127
+      width: 0.20955
+      mass: 2.0
+      rot: 2.0
+      rolling_resistance_coeff: 0.015
+      lookup_per_tyre: # remember this is per tyre
+        normal_load: [484.3, 645.8, 807.2, 968.7, 1130.1, 1291.6]
+        max_lon_slip: [6.0, 6.0, 6.5, 6.5, 6.5, 6.5]
+        max_lat_deg: [3.5, 4.0, 4.0, 4.0, 4.0, 4.0]
+        max_lon_force: [610.91378754, 816.91959961, 1033.2579916, 1239.90958993, 1446.56118825, 1649.98385534]
+        max_lat_force: [634.48498547, 858.89570552, 1107.52340975, 1310.94607685, 1504.68195027, 1695.18889248]
+      pacejka_b: 8.62
+      pacejka_c: 2.65
+      pacejka_e: 1.0
+      pacejka_fz0: 550.0
+      pacejka_eps: -0.1263
+
+    front_brake:
+      max_brake: 3000.0
+      brake_pad_out_r: 0.1
+      brake_pad_in_r: 0.0835
+      brake_caliper_area: 0.0018
+      brake_pad_friction_coeff: 0.4
+      # two piston brake 15 mm radius
+      piston_area: 0.00071 # 0.015 ^ 2 * pi
+      bias: 1.0
+
+    rear_brake:
+      max_brake: 3000.0
+      brake_pad_out_r: 0.1
+      brake_pad_in_r: 0.0835
+      brake_caliper_area: 0.0018
+      brake_pad_friction_coeff: 0.4
+      # two piston brake 15 mm radius
+      piston_area: 0.00071 # 0.015 ^ 2 * pi * 2
+      bias: 1.0
+
+    steer:
+      max_steer_rate: 1.0
+      max_steer: 0.314159
+      turn_left_bias: 0.0
+
+    chassis:
+      total_mass: 190.509
+      sprung_mass:  182.509
+      unsprung_mass: 8.0
+      cg_ratio: 0.45
+      wheel_base: 1.05
+      track_width: 1.0
+      moi: 200.0
+
+    aero:
+      aero_ratio: 0.5
+      speed: [0.0, 20.0, 40.0, 60.0, 80.0, 100.0] # m/s
+      downforce: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] # N
+      air_density: 1.2
+      drag_coeff: 0.5
+      cross_area: 0.5
+
+    powertrain:
+      rpm: [0.0, 500.0, 1000.0, 1500.0, 2000.0, 2500.0, 3000.0, 3500.0, 4000.0, 4500.0]
+      throttle: [0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0, 110.0]
+      torque: [
+        0.00,2.12,8.50,19.12,34.00,42.50,51.00,59.50,68.00,76.50,85.00,85.00,
+        0.00,2.12,8.50,19.12,34.00,42.50,51.00,59.50,68.00,76.50,85.00,85.00,
+        0.00,1.38,5.50,12.38,22.00,27.50,33.00,38.50,44.00,49.50,55.00,55.00,
+        0.00,0.92,3.67,8.25,14.67,18.33,22.00,25.67,29.34,33.00,36.67,36.67,
+        0.00,0.69,2.75,6.19,11.00,13.75,16.50,19.25,22.00,24.75,27.50,27.50,
+        0.00,0.55,2.20,4.95,8.80,11.00,13.20,15.40,17.60,19.80,22.00,22.00,
+        0.00,0.46,1.83,4.13,7.33,9.17,11.00,12.83,14.67,16.50,18.33,18.33,
+        0.00,0.39,1.57,3.54,6.29,7.86,9.43,11.00,12.57,14.14,15.72,15.72,
+        0.00,0.34,1.38,3.09,5.50,6.88,8.25,9.63,11.00,12.38,13.75,13.75,
+        0.00,0.34,1.38,3.09,5.50,6.88,8.25,9.63,11.00,12.38,13.75,13.75
+      ]
+      gear_ratio: [1.0]
+      final_drive_ratio: 0.9
+      sample_throttle: 50.0

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>wall_boundary_segmentation</name>
+  <version>0.1.0</version>
+  <description>LiDAR wall boundary segmentation for high speed autonomous racecars.</description>
+  <maintainer email="josejimenezjr18@gmail.com">Jose Jimenez-Olivas</maintainer>
+  <license>LGPLv3</license>
+  <author email="josejimenezjr18@gmail.com">Jose Jimenez-Olivas</author>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>pcl_conversions</depend>
+  <depend>libpcl-all-dev</depend>
+
+  <depend>race_msgs</depend>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

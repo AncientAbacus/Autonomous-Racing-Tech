@@ -1,0 +1,17 @@
+# IF NEEDED TO MATCH YOUR SYSTEM, CHANGE THE FOLLOWING VARIABLES:
+# - CARLA_SIM_PATH: Specify the path to the CARLA Simulator directory.
+# - OS: Specify the operating system (Windows or Linux).
+# - CARLA_ROS_BRIDGE_PATH: Specify the path to the CARLA ROS bridge package directory.
+
+# DEFAULT VALUES:
+# CARLA_SIM_PATH Default: "/opt/carla-simulator"
+# OS Default: "Linux"
+# CARLA_ROS_BRIDGE_PATH Default:
+#     - Linux: "/home/USER"
+#     - Windows: "C:\Users\USERNAME"
+
+carla_interface:
+  ros__parameters:
+    carla_sim_path: "/opt/carla-simulator" # Path to CARLA simulator
+    os: "Linux" # Operating System
+    carla_ros_bridge_path: "/home/ckwolfe" # Path to CARLA ROS bridge

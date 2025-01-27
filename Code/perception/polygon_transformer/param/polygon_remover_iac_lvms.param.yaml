@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    polygon_dt: 0.02
+    visualize_polygon: True
+    working_mode: "PolygonSub" # "Static" or "PolygonSub"
+    will_visualize: False
+    frame_id: "base_link"

@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    art_mpc_interface:
+      publish_tf: false
+      min_vx: 9.0
+      steering_scale: 1.0

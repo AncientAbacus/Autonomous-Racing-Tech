@@ -1,0 +1,27 @@
+/**:
+  ros__parameters:
+    simulated_frame_id: "base_link"
+    origin_frame_id: "map"
+    vehicle_model_type: "DELAY_STEER_VEL"
+    initialize_source: "INITIAL_POSE_TOPIC"
+    timer_sampling_time_ms: 10
+
+    add_measurement_noise: True
+    pos_noise_stddev: 0.01
+    rpy_noise_stddev: 0.005
+    vel_noise_stddev: 0.01
+    angvel_noise_stddev: 0.01
+    steer_noise_stddev: 0.005
+
+    vel_lim: 100.0
+    vel_rate_lim: 15.0
+    steer_lim: 0.2513274
+    steer_rate_lim: 5.0
+    acc_time_delay: 0.1
+    acc_time_constant: 0.1
+    steer_time_delay: 0.1
+    steer_time_constant: 0.1
+    x_stddev: 0.001 # x standard deviation for dummy covariance in map coordinate
+    y_stddev: 0.001 # y standard deviation for dummy covariance in map coordinate
+
+# Note: vehicle characteristics parameters (e.g. wheelbase) are defined in a separate file.
