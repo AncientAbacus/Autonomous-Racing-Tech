@@ -1,0 +1,7 @@
+/**:
+  ros__parameters:
+    dt: 0.5
+    recv_basestation_ip: "10.8.0.3"
+    recv_basestation_port: 23531
+    send_telemetry_ip: "10.8.0.4"
+    send_telemetry_port: 23431

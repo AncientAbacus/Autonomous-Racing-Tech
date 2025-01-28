@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_localization_interface</name>
+  <version>0.0.1</version>
+  <description>Launch robot localization</description>
+  <maintainer email="haorux@andrew.cmu.edu">Haoru Xue</maintainer>
+  <license>LGPLv3</license>
+  <author email="haorux@andrew.cmu.edu">Haoru Xue</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>race_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>message_filters</depend>
+  <depend>transform_helper</depend>
+  <exec_depend>robot_localization</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

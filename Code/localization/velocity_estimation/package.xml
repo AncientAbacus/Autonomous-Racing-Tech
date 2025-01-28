@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>velocity_estimation</name>
+  <version>1.0.0</version>
+  <description>Veolcity Estimation</description>
+  <maintainer email="haorux@andrew.cmu.edu">Haoru Xue</maintainer>
+  <license>LGPLv3</license>
+  <author email="haorux@andrew.cmu.edu">Haoru Xue</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+
+  <depend>race_msgs</depend>
+  <depend>transform_helper</depend>
+  <depend>vehicle_model</depend>
+  <depend>base_common</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,8 @@
+<library path="ghost_car">
+  <class name="race::ghost_car::AutonomousController" type="race::ghost_car::AutonomousController" base_class_type="race::ghost_car::GhostCarController">
+    <description>A Ghost Car Autonomous Controller Plugin.</description>
+  </class>
+  <class name="race::ghost_car::ManualController" type="race::ghost_car::ManualController" base_class_type="race::ghost_car::GhostCarController">
+    <description>A Ghost Car Manual Controller Plugin.</description>
+  </class>
+</library>

@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    cg_to_front: 1.63449
+    min_speed_thresh_yaw: 1.0

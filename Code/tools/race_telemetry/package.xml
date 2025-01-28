@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>race_telemetry</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="sisahawork@gmail.com">Siddharth Saha</maintainer>
+  <license>LGPLv3</license>
+  <author email="sisahawork@gmail.com">Siddharth Saha</author>
+  <author email="f6garcia@ucsd.edu">Frank Garcia</author>
+  <author email="emchao@ucsd.edu">Emerson Chao</author>
+  <author email="raymond.song98@gmail.com">Raymond Song</author>
+  <author email="thithershore@gmail.com">Vyvyen Yue</author>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>vision_msgs</depend>
+  <depend>libopencv-dev</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>kistler_msgs</depend>
+  <!--depend>diagnostic_msgs</depend-->
+
+  <depend>race_msgs</depend>
+  <depend>autoware_auto_perception_msgs</depend>
+
+  <depend>transform_helper</depend>
+  <depend>target_trajectory_line</depend>
+  <depend>base_common</depend>
+
+  <exec_depend>image_proc</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

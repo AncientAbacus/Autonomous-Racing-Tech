@@ -1,0 +1,15 @@
+[Unit]
+Description=ART Autonomy Launch
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+EnvironmentFile=/etc/default/race_common
+Type=simple
+ExecStart=/bin/bash ${RACE_COMMON_DIR}/src/tools/art_startup_services/launch/radars.bash
+TimeoutStartSec=600s
+TimeoutStopSec=5s
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,6 @@
+/**:
+  ros__parameters:
+    target_ttl_indexes: [2]
+    target_speeds: [0.0]
+    initial_wp_indexes: [0]
+    dt: 0.05

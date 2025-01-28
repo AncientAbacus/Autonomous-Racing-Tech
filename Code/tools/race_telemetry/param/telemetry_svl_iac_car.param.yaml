@@ -1,0 +1,43 @@
+/**:
+  ros__parameters:
+    vehicle_number: 7
+    version_number: 4
+    dt: 0.02
+    visualization:
+      pixel_per_m: 4
+      image_w: 180
+      image_h: 240
+      num_waypoint_to_visualize: 200 # applies to ttl and boundary visualization
+      timeout_sec: 0.5
+      ttl:
+        thickness: 1
+        rgb: [158, 254, 0]
+      rpp:
+        thickness: 2
+        rgb: [0, 129, 254]
+      boundary:
+        thickness: 1
+        rgb: [253, 245, 230]
+      opponent:
+        thickness: 1
+        rgb: [255, 87, 51]
+      ego:
+        thickness: 1
+        rgb: [255, 255, 255]
+        width: 2.0
+        height: 4.0
+        translation_x: 0.5
+        translation_y: 0.5
+      background_dark:
+        rgb: [69, 69, 69]
+      background_light:
+        rgb: [253, 245, 230]
+      text:
+        ratio_start: 0.73
+        top_margin: 0.01
+        gap: 0.04
+        font_scale: 0.54
+        rgb: [0, 185, 118]
+        rgb_highlight: [30, 144, 255]
+
+        

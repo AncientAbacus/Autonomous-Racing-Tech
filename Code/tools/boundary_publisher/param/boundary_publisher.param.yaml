@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    dt: 0.01
+    frame_id: "map"

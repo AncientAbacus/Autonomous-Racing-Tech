@@ -1,0 +1,4 @@
+/**:
+  ros__parameters:
+    info_throttle_dt: 2000 # milliseconds
+    freshness_threshold: 200 # milliseconds
