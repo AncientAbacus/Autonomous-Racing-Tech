@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    use_sim_time: false
+    atlas_udp_port: 23452
+    atlas_connection_type: "udp"
+    atlas_tcp_ip: ""
+    atlas_tcp_port: 30201
+    frame_id: "base_link"

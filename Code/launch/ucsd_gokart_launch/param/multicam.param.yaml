@@ -1,0 +1,19 @@
+/oak_d_w_right:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+      i_enable_ir: true
+      i_enable_imu: true
+      i_mx_id: 1844301031F7930F00
+/oak_d_w_left:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+      i_enable_ir: true
+      i_enable_imu: true
+      i_mx_id: 18443010B1F9840E00
+/oak_d_lr:
+  ros__parameters:
+    camera:
+      i_nn_type: none
+      i_mx_id: 14442C105142C8D600 
